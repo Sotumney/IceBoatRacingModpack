@@ -1,0 +1,21 @@
+## *Ice Boat Racing 1.9.2 Update Notes*
+
+This is a minor update to improve performance and remove some mods that were causing issues.
+
+You don't necessarily need to update, but it will improve your experience!
+
+### Microchangelog:
+- Updated Cherished Worlds
+- Updated Flashback
+- Updated Iceberg
+- Updated Iris Shaders
+- Updated Legendary Tooltips
+- Updated ModernFix
+- Updated Sodium
+
+- Removed Axiom due to causing a disconnect on BoatLabs build servers (will be readded for 1.21.4!)
+- Removed Camera Lock On
+
+- Added some splash texts
+
+From this point onward, development will shift towards 1.21.4 as that will soon be the default version for boat racing!

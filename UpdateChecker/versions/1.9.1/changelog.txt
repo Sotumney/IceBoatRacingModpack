@@ -1,0 +1,90 @@
+## *Ice Boat Racing 1.9.1 Update Notes*
+
+It's about time! This update, we've arrived at 1.21.1. While this is noted as a minor version update, it's better in *every* way. A bunch of restored quality of life, new cosmetic improvements and most important of all, new BoatUtils support and the addition of the Server Swapper Beta!
+
+
+### *Full Changelog:*
+- Enabled behavior to pin worlds and servers to the top of the list
+- Added a replay system powered by Flashback together with custom side buttons
+- Added a link to the Ice Boat Racing calendar on the main menu
+- Swapped the default supplied shaderpack for Complementary Reimagined
+- Added cosmetic improvements to all official servers
+- Added an in-beta server swapper for FrostHex and BoatLabs
+- Added a link for BRWC to the BRWC event calendar
+- Removed the "Custom Main Menu" due to aspect ratio issues and a crash caused by being blacklisted from the host that supplies the update notes 
+- Fixed an issue caused by the Server Links button when it is not present on a server
+- Fixed an issue related to SimpleVoiceChat where the setup menu would never prompt the user to actually set up
+- Fixed an issue where loading a shader while joining a server could
+- Fixed an issue related to missing textures on loading the game
+- Fixed an issue related to Xaero's mods prompting for an update
+- Fixed an issue related to BoatCam where the camera would be locked and misaligned after entering a boat
+- Fixed an issue caused by Just Zoom and Sodium that caused crashes on ARM devices
+- Fixed a rendering issue caused by a misconfigured amount of threads assigned to chuck building
+- Fixed a configuration issue caused by IBR Extras where HUD elements were misaligned due to being based on monitor position instead of relative position
+- Added warnings for menus that should not be configured by users
+- Updated the official server menu with a new Beta note
+- Added support for GUI scale 4 (automatic) by removing cosmetic elements if the screen is too small to display them
+- - *Updated all mods to their 1.21.1 counterparts!*
+
+
+**Added Mods:**
+- Added Axiom
+- Added Better Selection
+- Added Camera Lock On
+- Added ChatNotify
+- Added ChatSigningHider
+- Added Cherished Worlds
+- Added Delete Worlds to Trash
+- Added e4mc
+- Added FastQuit
+- Added Flashback
+- Added GPUtape
+- Added ListEntryHighlightFix
+- Added MacOSInputFixes
+- Added Modify Camera Collision (you can now look through barriers!)
+- Added Noisium
+- Added ParticleCore
+- Added Racing Scoreboard (Disabled by default)
+- Added Reset Keys Confirmation Screen
+- Added Screenshot to Clipboard
+- Added SmoothScroll
+- Added Spark
+- Added Universal Shortcuts
+- Added Zoomify
+
+
+**Removed Mods**
+- Removed BoatBreakFix (they patched it noway)
+- Removed C2ME
+- Removed Just Zoom
+- Removed ViaFabricPlus due to malfunctioning boat behavior
+
+
+**Configuration Updates:**
+- Updated default supplied settings configs
+- Cleaned up unused config files supplied by YOSBR
+- Fixed a bunch of misconfigurations caused by me being silly
+- Removed the ability to customize Puzzle settings and Flashback button settings (if changed, it can cause irreversible errors in the modpack)
+
+
+### *Known Issues*
+- WorldEditCUI is currently on a preview release. This means that it's incompatible with the local WorldEdit mod.
+- AMD Adrenalin Driver 25.3.1 exhibits mouse jumping when the game is ran in fullscreen and the mouse is moved to a rotated secondary screen (This is not exclusive to the modpack. This is a general AMD issue!)
+- NVIDIA 40-series graphics cards exhibit issues on GeForce drivers 572.83, 572.70 and 572.16, in addition to their Studio equivalents (This is not exclusive to the modpack. This is a general NVIDIA issue!)
+- When unloading a resource pack and joining a server or leaving a server before a resource pack is loaded, resource packs will fail to load for the rest of the session (a game restart fixes this)
+- BoatLabs NPC skins don't load correctly due to username & skin caching not working on first server log-on
+- On BoatLabs, after hovering an item with a rarity, the last hovered border gets retained in any button tooltip until another item is hovered
+- When loading a resource pack, BoatLabs entity shadows can display incorrectly
+- On Apple M-processors, loading resource packs can fail or result in a crash if too little VRAM was allocated to the graphics processor due to lack of total RAM
+- Camera Settings menu plays two or more click sounds depending on how long click is held down
+- When in a boat, BoatHUD and IBR Extras HUD elements stay visible when in F1/HUDless mode
+- Server Swapper Beta can kick players if clicked too fast (Just don't do that)
+- On rare occasions, the Issue Reporter menu can report an incorrect Java VM name
+- On rare occasions, Bobby chunks can fail to render when too few CPU threads are allocated to chunk rendering
+- On very rare occasions, specific audio hardware and/or software effects can temporarily cause short audio pops when unloading a resource pack while a sound is being played
+
+
+### *Notes for Customized Pack users*
+- As this is a version update, please remember what your custom mods were, and if they can be reinstalled with 1.21.1!
+
+The CurseForge release should happen whenever they decide to approve Flashback to be added to CurseForge modpacks, which should be somewhere in the near future. Thank you for using my modpack, keep on driving!
